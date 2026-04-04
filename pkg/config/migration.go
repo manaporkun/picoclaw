@@ -355,7 +355,7 @@ func v0ConvertProvidersToModelList(cfg *configV0) []modelConfigV0 {
 				}
 				return modelConfigV0{
 					ModelName:  "antigravity",
-					Model:      "antigravity/gemini-2.0-flash",
+					Model:      "antigravity/gemini-3-flash",
 					APIKey:     p.Antigravity.APIKey,
 					AuthMethod: p.Antigravity.AuthMethod,
 				}, true
